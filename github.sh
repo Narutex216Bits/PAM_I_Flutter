@@ -18,6 +18,7 @@ echo "#ignoring windows, mac and linux folders" >> .gitignore
 echo "windows" >> .gitignore
 echo "mac" >> .gitignore
 echo "linux" >> .gitignore
+echo "node_movdules" >> .gitignore
 
 git init
 git remote add origin $repositorio
